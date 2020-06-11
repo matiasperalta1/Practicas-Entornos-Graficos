@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Ejercicio4</title>
+</head>
+
+<body>
+    <a href="https://www.frro.utn.edu.ar/" target="_blank"> <img src="logoUTN.jpg" width="10%"></a>
+    <hr>
+    <h1>Año 2008</h1>
+    <table border="1px" cellspacing="0" width="200">
+        <tr>
+            <th colspan="4">
+                Examenes
+            </th>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">Fecha:
+                <script>
+                    document.write(new Date().toLocaleDateString());
+                </script>
+            </td>
+            <td align="right" width="40%">Aprobados</td>
+        </tr>
+        <tr>
+            <td align="right">
+                24/30
+            </td>
+        </tr>
+    </table>
+    <ol>
+        <li>
+            <a href="Enunciado.jpg">Enunciado del Examen</a>
+        </li>
+        <li>
+            <a href="//..//resolucion.html" target="_blank">Resolución</a>
+        </li>
+    </ol>
+    <p>
+        Puede realizar consultas completando el siguiente formulario:
+    </p>
+    <form action="mailto:x@x.com" target="_blank">
+        <label style="padding: 15px;"> <b>e-mail:</b> <input type="email" id="email" name="email"></label><br/><br/>
+        <label> <b>consulta:</b> <input type="text" style=" height: 80px; line-height: 80px;"></label><br/><br/>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="BORRAR">
+    </form>
+    <h2>Enunciado del examen</h2>
+    <p>Ejercicio 1:................ <br/> ...................................</p>
+    <p>Ejercicio 2:................ <br/> ...................................</p>
+    <p>Para mas información dirigirse a <a href="mailto:contacto@gmail.com">contacto@xx.com</a></p>
+</body>
+
+</html>
